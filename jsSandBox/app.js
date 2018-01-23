@@ -6,17 +6,32 @@
 
 let val;
 
-/*numbers to string
+/* 
+  numbers to string
 
 val = 5;
 
 */
 
-//turn into string by using the string func
+//Turn into string by using the string func
 
 val = String(5);
+val = String(5 + 5);
+
+//Bool to string
+val = String(true)
+
+//Date to String
+val = String(new Date())
+
+//Array to String
+val = String([1, 2, 3, 4, 5])
+
+//To String method
+val = (5).toString();
+val = (true).toString();
 
 //Output
 console.log(val);
 console.log(typeof val);
-console.log(val.length)
+console.log(val.length);
